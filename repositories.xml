@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<repositories version="1.0">
+	<repo quality="experimental" status="unofficial">
+		<name>gentoo-yorune</name>
+		<description lang="en">Personal overlay of y0rune containing patched ebuilds and new ebuilds</description>
+        <homepage>https://github.com/y0rune/gentoo-yorune</homepage>
+		<owner type="person">
+			<email>y0rune@aol.com</email>
+            <name>Marcin Wozniak</name>
+		</owner>
+		<source type="git">https://github.com/y0rune/gentoo-yorune.git</source>
+	</repo>
+</repositories>
