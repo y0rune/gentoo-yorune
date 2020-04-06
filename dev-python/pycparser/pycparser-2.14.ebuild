@@ -9,7 +9,8 @@ inherit distutils-r1 vcs-snapshot
 
 DESCRIPTION="C parser and AST generator written in Python"
 HOMEPAGE="https://github.com/eliben/pycparser"
-SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${P}.tar.gz"
+#SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${P}.tar.gz"
+SRC_URI="https://yorune.pl/repo/${PN}/${P}.tar.gz"
 
 LICENSE="BSD"
 SLOT="0"
