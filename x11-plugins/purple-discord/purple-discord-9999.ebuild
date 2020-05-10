@@ -19,3 +19,10 @@ net-im/pidgin
 dev-vcs/git
 dev-libs/json-glib"
 RDEPEND="${DEPEND}"
+
+src_compile() {
+  econf \
+    $(use_enable svg png jpeg) \
+    || die "Error: econf failed!"
+  emake || die "Error: emake failed!"
+}
