@@ -14,8 +14,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 
-DEPEND="media-gfx/imagemagick:=[jpeg png svg]
+RDEPEND="media-gfx/imagemagick[jpeg png svg]
 net-im/pidgin
 dev-vcs/git
 dev-libs/json-glib"
-RDEPEND="${DEPEND}"
+
+DEPEND="${RDEPEND}"
