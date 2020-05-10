@@ -14,7 +14,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 
-DEPEND="net-im/pidgin
+DEPEND="app-text/convertlit
+net-im/pidgin
 dev-vcs/git
 dev-libs/json-glib"
 RDEPEND="${DEPEND}"
