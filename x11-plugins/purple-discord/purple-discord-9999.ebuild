@@ -14,7 +14,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 
-RDEPEND=">=media-gfx/imagemagick-6.9.11.7[jpeg png svg]
+RDEPEND=">=media-gfx/imagemagick-6.9.11.7[jpeg,png,svg]
 net-im/pidgin
 dev-vcs/git
 dev-libs/json-glib"
