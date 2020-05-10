@@ -12,9 +12,9 @@ EGIT_REPO_URI="${HOMEPAGE}"
 LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE="jpeg png svg"
+IUSE=""
 
-DEPEND="media-gfx/imagemagick
+DEPEND="media-gfx/imagemagick:=[jpeg png svg]
 net-im/pidgin
 dev-vcs/git
 dev-libs/json-glib"
