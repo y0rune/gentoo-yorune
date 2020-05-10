@@ -14,7 +14,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 
-DEPEND="app-text/convertlit
+DEPEND="media-gfx/imagemagick
 net-im/pidgin
 dev-vcs/git
 dev-libs/json-glib"
