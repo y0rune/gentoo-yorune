@@ -108,7 +108,7 @@ src_configure(){
 		MEGA.pro
 		CONFIG+="release"
 	)
-
+	grep --color=no -rl 'videoStream->s' | xargs sed -i 's/videoStream->s/\/\/videoStream->s/g'
 	eqmake5 ${myeqmakeargs[@]}
 	use dolphin && cmake-utils_src_configure
 	$(qt5_get_bindir)/lrelease MEGASync/MEGASync.pro
