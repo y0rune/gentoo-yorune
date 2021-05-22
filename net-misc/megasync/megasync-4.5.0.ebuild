@@ -7,7 +7,7 @@ inherit eutils multilib qmake-utils autotools git-r3 desktop cmake-multilib
 
 DESCRIPTION="A Qt program for syncing your MEGA account in your PC. This is the official app."
 HOMEPAGE="http://mega.co.nz"
-RTAG="_Linux"
+RTAG="_Win"
 if [[ ${PV} == *9999* ]];then
 	EGIT_REPO_URI="https://github.com/meganz/MEGAsync"
 	KEYWORDS=""
